@@ -2,12 +2,13 @@ import React from 'react'
 
 const table = () => {
   return (
-<table className="table border border-2 w-75 mx-auto mt-5">
+<table className="table border border-1 border-black w-75 mx-auto mt-5">
   <thead>
     <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
+      <th scope="col">Customer ID</th>
+      <th scope="col">Customer</th>
+      <th scope="col">Date</th>
+      <th scope="col">Transcation ammount</th>
     </tr>
   </thead>
   <tbody>
