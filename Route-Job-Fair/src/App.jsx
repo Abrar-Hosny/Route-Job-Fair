@@ -1,11 +1,13 @@
 import React from "react";
-import Button from "./components/Input";
-import Navbar  from "./components/Navbar";  
-
+import Input from "./components/Input";
+import Navbar from "./components/Navbar";
+import Table from "./components/Tab";
 const App = () => {
   return (
     <div>
-<Navbar/>
+      <Navbar />
+      <Input />
+      <Table />
     </div>
   );
 };
