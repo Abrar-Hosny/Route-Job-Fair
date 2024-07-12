@@ -1,12 +1,11 @@
 import React from "react";
-import Button from "./components/Button";
+import Button from "./components/Input";
 import Navbar  from "./components/Navbar";  
 
 const App = () => {
   return (
     <div>
 <Navbar/>
-      <Button />
     </div>
   );
 };
