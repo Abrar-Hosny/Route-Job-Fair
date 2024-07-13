@@ -1,7 +1,11 @@
 import React from 'react'
+import trasncation from "../transactions.json";
+import customer from "../customers.json";
+
 
 const table = () => {
-  return (
+console.log(trasncation , customer);
+return (
 <table className="table border border-1 border-black w-75 mx-auto mt-5">
   <thead>
     <tr>
@@ -12,20 +16,8 @@ const table = () => {
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>@twitter</td>
-    </tr>
+    {trasncation}
+    
   </tbody>
 </table>  )
 }
